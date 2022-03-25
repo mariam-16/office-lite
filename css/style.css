@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+@font-face {
+    font-family: kumbh-bold;
+    src: url(../fonts/KumbhSans-Bold.ttf);
+}
+@font-face {
+font-family:kumbh-regular;
+src: url(../fonts/KumbhSans-Regular.ttf);  
+}
+.header1{
+display: flex;  
+}
+.container{
+    width: 100%;
+    margin: 7;
+    background-color:  #FAFAFA;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.header-contant .main-heading{
+    font-family: kumbh-bold;
+    color: #333950;
+   padding-top: 20px;
+   font-size: 56;
+   /* line-height: 20px; */
+   margin-bottom: 20px;
+}
+.header-contant .start-btn{
+        color: #F5F5F5; 
+    background: #5175FF;
+    font-size: 16px;
+    margin-top: 12px;
+    padding: 22px 22px;
+    font-family:kumbh-bold; 
+    border: none;
+    border-radius: 20px;
+      color: #FFFFFF; 
+    padding: 10px;
+    height: 40px;
+    width: 200px;
+}
+.document{
+    margin-left: 0px;
+}
+.header-contant .main-text{
+    line-height: 15px;
+    color: #747B95;  
+    font-size: 18;
+    font-family: kumbh-regular;
+    line-height: 1.5;
+}
+ .header-contant{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+   justify-content:flex-start;
+   margin-bottom: 20px;
+} 
+ .shap{
+    display: flex;
+    justify-content: space-between;
+margin-bottom: 50px;
+} 
+.shap1{
+   background-color: #FFFFFF;
+   font-family: kumbh-regular;
+   border-radius: 20px;
+   padding: 40px; 
+}
+/* .shap1:hover .shap3{
+    background-color: rgb(3, 70, 3);
+} */
+.main-text:hover{
+    color: royalblue;
+    cursor: pointer;
+}
+
+.Free{
+ font-size: 56px;
+    font-family: kumbh-bold;
+margin-left: 30px;
+}
+.Try{
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 40px;
+    padding: 15px;
+    background-color: #E4EAFF;
+    color: #5175FF;
+    font-size: 16;
+    font-family: Kumbh-bold;
+}
+.storage{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    /*text-indent: 20px;*/
+margin-left: 20px;
+}
+.Up{
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+.Basic{
+    padding-bottom: 30px;
+margin-left: 75px;
+}
+.shap2{
+    background-color: #5175FF;
+    font-family: kumbh-regular;
+    border-radius: 20px;
+     padding: 40px; 
+ }
+.shap3{
+    background-color: #FFFFFF;
+    font-family: kumbh-regular;
+    border-radius: 20px;
+    padding: 40px; 
+} 
+
+.vip{
+    margin-left: 50px;
+}
+.shap .storage{
+    margin-left: 50px;
+}
+.shap3 .Try{
+    margin: 40px;
+}
+   .shap2 .document{
+       margin-left: 20px;
+   }
+   .shap2 .Great{
+       margin-left: 20px;
+   }
+  .shap:hover .shap2 {
+      background-color: rgb(120, 164, 245);
+      color: ivory;
+  }
+  .shap:hover .shap3{
+    background-color: rgb(120, 164, 245);
+    color: ivory; 
+  }
+  .shap:hover .shap1{
+    background-color: rgb(120, 164, 245);
+    color: ivory;
+  } 
+     .main-nav{
+     background-color: black;
+     display: inline-block;
+     height: 30px;
+     margin-left: 900px;
+         } 
+  .item-nav{
+     color: #FFFFFF; 
+font-size: 20px;
+padding-left: 0px;
+padding-bottom: 7px;
+padding-right: 10px;  
+}
+   .item-nav:hover{
+      background-color: brown;
+      color: black;
+      cursor: pointer;
+  } 
+  .boxes{
+      font-family: kumbh-bold;
+      display: flex;
+justify-content: left;
+      text-align: center;
+      padding-left: 20px;
+      margin-left: 20px;
+       color: #FFFFFF; 
+       padding-top: 30px;
+  }
+  .top-text{
+      font-size: 56px;
+  }
+  .first-box{
+background-color: #333950;
+border: none;
+border-radius: 10px;
+margin-right: 50px;
+  }
+  .sconed-box{
+    background-color: #333950;
+    border: none;
+    border-radius: 10px;
+    margin-right: 50px;
+  }
+  .third-box{
+background-color: #333950;
+border: none;
+border-radius: 10px;
+margin-right: 50px;
+
+  }
+  .last-box{
+    background-color: #333950;
+    border: none;
+    border-radius: 10px;
+    margin-right: 50px;
+  }
+  .last-button{
+      background: #5175FF;
+      font-size: 16px;
+      font-family:kumbh-bold; 
+      border: none;
+      border-radius: 20px;
+        color: #FFFFFF; 
+      padding: 10px;
+margin-left: 630px;
+      height: 40px;
+      width: 200px;
+  }
+  .father{
+      font-size: 16px;
+      font-family: kumbh-bold;
+      padding-left: 30px;
+  }
+  .sce-phr{
+      color: #5175FF;
+  }
